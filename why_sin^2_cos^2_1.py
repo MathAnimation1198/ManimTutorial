@@ -128,4 +128,5 @@ class Sincos(MovingCameraScene):
         final_group=VGroup(equal_to1,new_s,new_cos)
         sourr_rect=SurroundingRectangle(final_group,color=YELLOW)
         self.play(Create(sourr_rect),rate_func=there_and_back)
+        print("hello")
         self.wait()
